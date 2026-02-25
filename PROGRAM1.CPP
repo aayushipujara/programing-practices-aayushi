@@ -1,16 +1,17 @@
 #include <stdio.h>
 //define structure
-struct student
+struct student      //typedef ins starting
 {
 int rollno;
 char name[20];
 char department[40];
 int year_of_joining;
 float score;
-};
+};                 //name of typedef abc
 int main()
 {
-struct student s;  //declare structure variable
+struct student s;  //declare structure variable   //write  the abc here instead of struct student
+
 //input data
 printf("Enter roll number:");
 scanf("%d",&s.rollno);
@@ -32,3 +33,4 @@ printf("Score:%.2f\n",s.score);
 return 0;
 
 }
+
