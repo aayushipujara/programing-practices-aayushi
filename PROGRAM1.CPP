@@ -1,3 +1,4 @@
+#include <conio.h>
 #include <stdio.h>
 //define structure
 struct student     
@@ -8,7 +9,7 @@ char department[40];
 int year_of_joining;
 float score;
 };                 
-int main()
+void main()
 {
 struct student s;  //declare structure variable   
 
@@ -30,8 +31,9 @@ printf("Name:%s\n",s.name);
 printf("Department:%s\n",s.department);
 printf("Year of joining:%d\n",s.year_of_joining);
 printf("Score:%.2f\n",s.score);
-return 0;
+getch();
 
 }
+
 
 
