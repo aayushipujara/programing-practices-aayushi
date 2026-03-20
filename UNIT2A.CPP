@@ -11,3 +11,8 @@ void main()
 	}
 	getch();
 }
+int i, marks[10];  for(i=0;i<10;i++)
+{
+printf(“enter value:”);
+scanf(“%d”, &marks[i]);
+}
