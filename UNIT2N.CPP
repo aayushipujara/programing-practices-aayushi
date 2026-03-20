@@ -23,5 +23,10 @@ void main()
 		i++;
 		j++;
 	}
-	
+	str3[j]='\0';
+	printf("\n The Concatenated String is : ");
+	puts(str3);
+	getch();
+
+}
 	
